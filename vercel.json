@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "edtech-skillstech-rc",
+  "builds": [
+    { "src": "**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
